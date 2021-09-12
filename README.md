@@ -5,6 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![2](https://user-images.githubusercontent.com/51053595/132952383-59b58400-5cbd-46d0-873a-281e03d956ac.PNG)
 
+
+<h4>Try on <b><a href="https://weather-app-ten-gamma.vercel.app/">Vercel</a></b></h4>
+
 ## Getting Started
 
 First you need free test pro key. Create your api key in: https://openweathermap.org/api
