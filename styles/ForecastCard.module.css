@@ -1,0 +1,25 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Date {
+    width: 7rem;
+    font-weight: bold;
+}
+
+@media (min-width: 764px) {
+    .Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Container {
+        justify-content: space-evenly;
+    }
+}

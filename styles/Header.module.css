@@ -1,0 +1,67 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.SearchInput {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.Icon {
+    color: gray;
+    width: 1rem;
+}
+
+.FavouriteWrapper {
+    color: gray;
+    text-align: center;
+}
+
+.FavouriteIcon {
+    font-size: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.FavouriteDesc {
+    display: none;
+}
+
+@media (min-width: 764px) {
+    .Header {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Wrapper {
+        display: flex;
+    }
+
+    .CurrentWeather {
+        border-right: 2px solid lightgrey;
+        width: 60%;
+    }
+
+    .Header {
+        justify-content: space-around;
+    }
+
+    .FavouriteIconWrapper:hover + p {
+        visibility: visible;
+    }
+
+    .FavouriteDesc {
+        display: block;
+        width: 5rem;
+        margin: 0;
+        font-size: 0.8rem;
+        visibility: hidden;
+    }
+}

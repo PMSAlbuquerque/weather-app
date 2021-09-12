@@ -1,0 +1,26 @@
+.Container {
+    text-align: center;
+}
+
+.Name {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+}
+
+.Temp {
+    font-size: 6rem;
+}
+
+.Description {
+    font-size: 1rem;
+}
+
+@media (min-width: 764px) {
+    .Name {
+        font-size: 3rem;
+    }
+
+    .Temp {
+        font-size: 7rem;
+    }
+}

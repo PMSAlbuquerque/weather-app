@@ -1,0 +1,19 @@
+.Container {
+    margin-bottom: 2.5rem;
+}
+
+.CityWrapper{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 25px;
+    max-width: 19rem;
+    margin: 0.5rem auto;
+}
+
+.Name,
+.Cross {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
